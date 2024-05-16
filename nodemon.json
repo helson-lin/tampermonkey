@@ -4,9 +4,9 @@
     "watch": [
       "src/"
     ],
-    "ignore": ["src/assets/global.css"],
+    "ignore": [],
     "delay": "1000",
-    "exec": "npm run build:prod",
+    "exec": "npm run build:css && npm run build:prod",
     "ext": "js txt css"
   }
   
