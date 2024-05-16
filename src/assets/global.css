@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#UCOPYROOT {
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F8FAFB;
+    cursor: pointer;
+    z-index: 2047;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    animation: showMessage 500 ease-in-out;
+    -webkit-animation: showMessage 500 ease-in-out;
+}
+
+@keyframes showMessage {
+    from {
+        top: -3rem;
+    }
+    to {
+        top: 2rem;
+    }
+}

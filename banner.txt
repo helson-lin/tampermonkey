@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         Ucopy
+// @namespace    
+// @match        *://*/*
+// @version      0.0.1
+// @description  command+u复制网址
+// @icon         https://pic.kblue.site/picgo/ffandown_favicon.ico
+// @author       helsonlin
+// @license      MIT
+// @namespace    https://github.com/helson-lin
+// @homepage     https://github.com/helson-lin
+// @match        *://*/*
+// @exclude      *://github.com/*
+// @connect      *
+// @grant        unsafeWindow
+// @run-at       document-start
+// ==/UserScript==
